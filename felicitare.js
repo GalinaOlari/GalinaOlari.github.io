@@ -11,7 +11,8 @@ function hiMessage() {
 }
 
 hiMessage();
-function On(){
+
+/*function On(){
 
 
 
@@ -503,3 +504,4 @@ function none6() {
 }
 setTimeout(none6, 25000);
 }
+*/
