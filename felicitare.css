@@ -19,7 +19,9 @@ body {
   font-family: "Pattaya", sans-serif;
   font-weight: 600;
 }
-
+.hello {
+  color: white;
+  ]
 .main {
   width: 100vw;
   height: 100vh;
