@@ -4,7 +4,7 @@
 
 function hiMessage() {
   let hiMess = document.getElementById("hiMess");
-  hiMess.setAttribute("class", "hello");
+  //hiMess.setAttribute("class", "hello");
   hiMess.innerHTML = "Salutare!";
 
   decorP(0);
@@ -488,18 +488,18 @@ function none6() {
 
   fw();
 
-  let source = document.createElement("source");
-  source.setAttribute("src", "artificii.mp3");
-  source.setAttribute("type", "audio/mp3");
-  let element = document.getElementById("audio");
-  element.appendChild(source);
+  //let source = document.createElement("source");
+ // source.setAttribute("src", "artificii.mp3");
+  //source.setAttribute("type", "audio/mp3");
+  //let element = document.getElementById("audio");
+  //element.appendChild(source);
 
-  function music2() {
-    let video2 = document.getElementById("audio2");
-   video2.play();
+  //function music2() {
+   // let video2 = document.getElementById("audio2");
+  // video2.play();
    
    }
-   music2();
+  // music2();
 }
 setTimeout(none6, 25000);
 }
