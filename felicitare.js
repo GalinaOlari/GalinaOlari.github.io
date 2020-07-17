@@ -4,7 +4,7 @@
 
 function hiMessage() {
   let hiMess = document.getElementById("hiMess");
-  //hiMess.setAttribute("class", "hello");
+  hiMess.setAttribute("class", "hello");
   hiMess.innerHTML = "Salutare!";
 
   decorP(0);
