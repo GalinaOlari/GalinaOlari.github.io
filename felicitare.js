@@ -1,7 +1,16 @@
-﻿function sing() {
-  alert('Salutare! Vă rog să apsați OK și să faceți click pe ecran! :)')
+//function sing() {
+  //alert('Salutare! Vă rog să apsați OK și să faceți click pe ecran! :)')
+//}
+
+function hiMessage() {
+  let hiMess = document.getElementById("hiMess");
+  hiMess.setAttribute("class", "hello");
+  hiMess.innerHTML = "Salutare!";
+
+  decorP(0);
 }
 
+hiMessage();
 function On(){
 
 
@@ -335,25 +344,25 @@ create_random_line();
 function text1() {
   let one = document.getElementById("one");
   one.innerHTML = "&#9734; Galina, &#9734;";
-  decorP(0);
+  decorP(1);
 }
 
 function text2() {
   let two = document.getElementById("two");
   two.innerHTML = "&#10048;La &#10048;";
-  decorP(1);
+  decorP(2);
 }
 
 function text3() {
   let three = document.getElementById("three");
   three.innerHTML = "&#9728; Mulți Ani! &#9728;";
-  decorP(2);
+  decorP(3);
 }
 
 function text4() {
   let four = document.getElementById("four");
   four.innerHTML = "&#10084; &#9786; &#10084;";
-  decorP(3);
+  decorP(4);
 }
 
 setTimeout(text1, 900);
@@ -380,7 +389,7 @@ function mess() {
   messInner.innerHTML = "miracole";
 
   message();
-  decorP(4);
+  decorP(5);
 }
 
 setTimeout(mess, 9000);
@@ -397,7 +406,7 @@ function mess2() {
   messInner2.innerHTML = "fericire";
 
   message();
-  decorP(5);
+  decorP(6);
 }
 
 setTimeout(mess2, 10000);
@@ -414,7 +423,7 @@ function mess3() {
   messInner3.innerHTML = "prosperitate";
 
   message();
-  decorP(6);
+  decorP(7);
 }
 
 setTimeout(mess3, 14000);
@@ -431,7 +440,7 @@ function mess4() {
   messInner4.innerHTML = "surprize";
 
   message();
-  decorP(7);
+  decorP(8);
 }
 
 setTimeout(mess4, 16000);
@@ -448,7 +457,7 @@ function mess5() {
   messInner5.innerHTML = "iubire";
 
   message();
-  decorP(8);
+  decorP(9);
 }
 
 setTimeout(mess5, 18000);
@@ -465,7 +474,7 @@ function mess6() {
   messInner6.innerHTML = "armonie";
 
   message();
-  decorP(9);
+  decorP(10);
 }
 
 setTimeout(mess6, 20000);
