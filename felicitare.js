@@ -20,7 +20,7 @@ function music() {
 video.play();
 
 }
-music();
+//music();
 
 function fw() {
   var gl = c.getContext("webgl", {
