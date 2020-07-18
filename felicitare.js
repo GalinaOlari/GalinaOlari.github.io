@@ -15,7 +15,7 @@ function sing() {
   hello3.innerHTML = "(Alegeți o variantă)";
   let hi = document.getElementById("hi");
   hi.setAttribute("class", "flex"); 
-
+alert('Vă rog să conectați sunetul!');
 
 
   function hBox() {
